@@ -1,0 +1,14 @@
+create table students 
+('ID' varchar(4), 'Name' text(30), 'Class' integer(2));
+insert into students values 
+('9180', 'Amaan', '10'); 
+insert into students
+values ('0059','sami','10');
+select name from students
+where ID = '0059';
+select ID from students
+where name = 'Amaan';
+update students 
+set ID = '6969'
+where name = 'sami';
+select*from students
